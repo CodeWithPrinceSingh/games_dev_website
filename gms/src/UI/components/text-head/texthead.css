@@ -1,0 +1,18 @@
+.contect-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 0px;
+  width: 80%;
+  margin: 0px auto;
+}
+.contect-head p{
+  font-size: 12px;
+}
+.contect-head p span{
+  color: var(--primary-buttom);
+}
+.contect-head h3{
+  font-size: 22px;
+}

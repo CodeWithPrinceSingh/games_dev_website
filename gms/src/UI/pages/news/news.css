@@ -1,0 +1,6 @@
+.news{
+	color:var(--color);	
+}
+.grid-layout{
+	display: flex;
+}

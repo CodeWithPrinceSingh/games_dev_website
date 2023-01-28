@@ -1,0 +1,25 @@
+.social-media {
+	width: ;
+	align-self: flex-end;
+}
+
+.social-media ul{
+	display: flex;
+	gap: 10px;
+
+}
+.social-media ul li{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: white;
+position: relative;
+}
+.social-media ul li a svg{
+	font-size: 22px;
+	color: var(--primary-buttom);
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	border-radius: 50%;
+}

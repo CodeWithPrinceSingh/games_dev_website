@@ -1,0 +1,32 @@
+.slider{
+	padding-bottom: 80px;
+}
+#slides{
+	display: grid;
+	grid-template-columns: 400px 400px 400px 400px 400px 400px ;
+	position: relative;
+	left: 0px;
+	transition: 0.6s all ease;
+}
+.slides-wraper{
+	overflow: hidden;
+
+}
+#prev,#next{
+	margin: 10px;
+}
+ .btns{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 80px;
+}
+
+@media screen and (max-width:768px){
+	 .btns{
+	
+	justify-content: space-evenly;
+	margin: 0px;
+}
+	
+
+}

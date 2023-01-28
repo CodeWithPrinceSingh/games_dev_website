@@ -1,0 +1,40 @@
+.trendgames__warpper{
+
+} 
+.trendgames-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.g-cart{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+.trendgames-header-text{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+@media screen and (max-width:1150px){
+	.g-cart{
+	grid-template-columns: auto auto auto ;
+	gap: 20px;
+	justify-content: center;
+}
+
+}
+@media screen and (max-width:900px){
+	.g-cart{
+		gap: 20px;
+	grid-template-columns: auto auto;
+	justify-content: center;
+}
+.trendgames-cart{
+	padding: 20px 0px;
+}
+
+}
