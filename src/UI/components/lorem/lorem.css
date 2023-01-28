@@ -1,0 +1,52 @@
+.lorem{
+	padding-bottom: 80px;
+}
+
+
+
+
+.lorem-txt{
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+.lorem-txt h3{
+	width: 60%;
+	font-weight: 400;
+	font-size: 22px;
+}
+.lorem-desc{
+	width: 500px;
+
+}
+.lorem-desc h4{
+	font-weight: 400;
+	font-size: 18px;
+	padding: 20px 0px;
+}
+.lorem-desc p{
+	font-weight: 300;
+	font-size: 13px;
+	padding-bottom: 50px;
+}
+.lorem-banner img{
+	width: 100%;
+	height: 300px;
+}
+
+@media screen and (max-width:1000px){
+.lorem-txt h3{
+	width: 100%;
+	font-size: 20px;
+}	
+.lorem-banner img{
+	width: 100%;
+	height: 100%;
+}
+.lorem-desc{
+	width: 100%;
+
+}
+}

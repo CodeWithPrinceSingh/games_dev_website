@@ -1,0 +1,60 @@
+.recent{
+padding: 40px 0px;
+}
+.recent-head{
+	padding-bottom: 40px;
+	text-align: center;
+}
+.recent-head h3{
+	font-weight: 400;
+	font-size: 22px;
+}
+.recent-head p{
+	font-weight: 300;
+	font-size: 12px;
+	padding: 8px;
+	
+}
+.recent .recent-image {
+	max-width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin: 0px auto;
+
+}
+.recent .recent-image img{
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.recent .recent-image img:hover {
+	opacity: 0.5;
+	transition: 0.5s all;
+}
+.see-all-btn{
+	text-align: center;
+	margin: 30px 0px;
+}
+
+
+@media screen and (max-width:1300px) {
+	.recent .recent-image img{
+		width: 300px;
+		height: 200px;
+	}
+}
+@media screen and (max-width:700px) {
+	.recent .recent-image img{
+		width: 200px;
+		height: 100px;
+	}
+}
+@media screen and (max-width:450px) {
+	.recent .recent-image img{
+		width: 150px;
+		height: 80px;
+	}
+}

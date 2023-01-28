@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Poppins:wght@100;200;300;500;600;800&family=Raleway:ital,wght@0,500;1,200&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+ --font-family:'Poppins', sans-serif;
+ --color:#FFFFFF;
+ --footer-color:#00000;
+ --card--bg: #1C140F;
+ --primary-buttom:#DC7000;
+ --secondary-buttom:#2351F5;
+
+}
+ul li{
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: var(--color);
+}
+p{
+  line-height: 25px;
+}
+.primary-button{
+  background-color: var(--primary-buttom);
+  border: none;
+  border-radius: 6px;
+  color: var(--color);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 300;
+  transition: 0.3s all;
+}
+.secondary-button{
+  background-color: var(--card--bg);
+  border: none;
+  border-radius: 6px;
+  color: var(--color);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 300;
+  transition: 0.3s all;
+}
+.secondary-button:hover , .primary-button:hover{
+opacity: 0.8;
+}
+
+.section-one-padding{
+  padding: .25rem 6rem;
+}
+.section-two-padding{
+  padding: 1rem 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
+  backdrop-filter: blur(7px);
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width:800px) {
+
+.section-one-padding{
+  padding: 0 2rem;
+}
+.section-two-padding{
+  padding: 10px 20px;
+}
+}
+@media screen and (min-width:1800px) {
+  body{
+    width: 1368px;
+  }
+}
+

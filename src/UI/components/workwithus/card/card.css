@@ -1,0 +1,33 @@
+.card{
+	display: flex;
+	flex-direction: column;
+	background-color: var(--card--bg);
+	padding: 50px 40px;
+	gap: 20px;
+	border-radius: 15px;
+}
+.card .color-1 {
+ width: fit-content;
+ background-color: #7321B4;
+ padding: 4px 8px;
+ border-radius: 5px;
+}
+.card .color-2 {
+ width: fit-content;
+ background-color: #412812;
+ padding: 4px 8px;
+ border-radius: 5px;
+}
+
+.card .color-3{
+ width: fit-content;
+ background-color: #19473D;
+ padding: 4px 8px;
+ border-radius: 5px;
+}
+
+
+.card p{
+	font-size: 12px;
+	font-weight: 300;
+}

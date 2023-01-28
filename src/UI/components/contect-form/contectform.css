@@ -1,0 +1,60 @@
+.contect-form-head{
+	text-align: center;
+	padding: 50px 0px;
+}
+.contect-form-head h3{
+	font-size: 22px;
+}
+.contect-form{
+display: flex;
+justify-content: center;
+}
+.contect-form .name{
+	display: flex;
+	gap: 10px;
+}
+.fname{
+	width: 100%;
+}
+.lname{
+	width: 100%;
+}
+.form{
+	width: 70%;
+	position: relative;
+}
+.flex{
+	display: flex;
+	padding: 10px;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.flex level{
+	font-size: 14px;
+	color: #cecece;
+}
+.org{
+	padding: 10px 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid white;
+	outline: none;
+	background-color: #cecece;
+	font-size: 14px;
+	font-weight: 300;
+}
+.btn{
+	position: absolute;
+	right: 0px;
+	padding: 20px 0px;
+}
+.contect-form-warper{
+	padding-bottom: 100px;
+}
+
+@media screen and (max-width:900px) {
+	.form{
+	width: 90%;
+}
+}

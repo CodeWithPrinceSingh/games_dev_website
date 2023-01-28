@@ -1,0 +1,100 @@
+.hero{
+    width: 100%;
+    padding: 50px 10px;
+    
+}
+.hero-container{
+      display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.hero__image-container{
+	width: 230px;
+	z-index: -1;
+	
+}
+.hero__image-container img{
+	width: 100%;
+	
+}
+.hero__work-container{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 8px;
+}
+.game-dev{
+	color: var(--primary-buttom);
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 15px;
+}
+.work-text-head{
+font-weight: 700;
+font-size: 45px;
+line-height:60px;
+}
+.work-decs{
+font-family:var(--font-family) ;
+font-weight: 300;
+font-size: 15px;
+line-height: 200%;
+margin: 20px 0px;
+}
+.more{
+	border-radius: 20px;
+}
+.cry{
+position: absolute;
+top:200px;
+right: 250px;
+
+}
+.unreal{
+position: absolute;
+top:215px;
+right: 70px;
+width: 50px;
+}
+.unity{
+position: absolute;
+top:400px;
+right: 475px;
+
+}
+@media screen and (max-width:1100px) {
+	.none{
+		display: none;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.hero-container{
+		flex-direction: column;
+	}
+	.hero__image-container{
+	position: absolute;
+	top: 0px;
+	opacity: 0.4;
+}
+.work-text-head{
+font-weight: 700;
+font-size: 35px;
+line-height:50px;
+}
+.hero__work-container{
+	position: relative;
+	top:30px;
+}
+.hero__work-container{
+	gap:20px;
+	width: 85vw;
+}
+.hero{
+	padding:80px 0px;
+}
+
+}

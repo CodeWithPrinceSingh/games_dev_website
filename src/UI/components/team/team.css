@@ -1,0 +1,20 @@
+.t-cards{
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+}
+.team{
+	margin: 20px 0px 90px 0px
+}
+.team h3{
+	padding: 40px 0px;
+	font-weight: 300;
+}
+
+
+@media screen and (max-width:1000px){
+	.t-cards{
+	flex-wrap: wrap;
+}
+
+}
