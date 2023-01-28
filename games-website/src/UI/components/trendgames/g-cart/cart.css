@@ -1,0 +1,28 @@
+.cart{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap:10px;
+	cursor: pointer;
+	padding: 20px 0px 50px 0px;
+}
+.trend-p svg{
+	color: #ff5300;
+	font-size: 20px;
+}
+.cart img{
+	width: 200px;
+}
+@media screen and (max-width:500px){
+	.cart {
+	padding: 10px 0px;
+	}
+	.cart img{	
+		width: 150px;
+}
+.trend-p{
+	font-size: 13px;
+}
+
+}

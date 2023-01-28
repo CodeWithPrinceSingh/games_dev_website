@@ -1,0 +1,24 @@
+.lcard{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.lcard .lcard-img{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 50px;
+}
+
+.lcard .lcard-img img{
+	width: 100%;
+}
+
+
+.blues{
+	border-radius: 0px;
+		background-color: #1664ff;	
+}
+.lcard p{
+	font-size: 13px;
+}

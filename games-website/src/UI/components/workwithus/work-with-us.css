@@ -1,0 +1,19 @@
+.head-cards{
+	padding-bottom: 50px;
+}
+.head-cards h3{
+	padding: 30px 0px;
+	font-weight: 300;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+@media screen and (max-width:730px){
+	.cards{
+		flex-direction: column;
+	}
+}
